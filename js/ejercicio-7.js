@@ -13,7 +13,7 @@
 let numero = parseInt(prompt('Escriba un número entre 1 y 50 para crear la piramide'));
 
 if (numero > 50 || numero < 1 || isNaN(numero)) {
-    alert('Por favor, ingrese un número correctamente entre 1 y 50');
+    alert('Por favor, ingrese un número correctamente entre 1 y 50.\nSi desea intentar de nuevo recargue la página');
 
 } else{
     for (numero; numero >= 1; numero--) {
