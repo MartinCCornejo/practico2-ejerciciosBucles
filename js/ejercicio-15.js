@@ -9,7 +9,7 @@ if (frase === null) {
 } 
 else {
     for (let i = 0; i < frase.length; i++) {
-        let caracteres = frase[i];
+        let caracteres = frase.charAt(i).toLowerCase();
     
         if (caracteres == 'a' || caracteres == 'e' || caracteres == 'i' || caracteres == 'o' || caracteres == 'u') {
             vocales++;
