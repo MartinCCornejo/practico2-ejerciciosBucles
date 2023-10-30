@@ -13,8 +13,7 @@ let vocales = '';
 
 if (texto !== null) {
     for (let i = 0; i < texto.length; i++) {
-        let caracteres = texto.charAt(i);
-        caracteres = caracteres.toLowerCase();
+        let caracteres = texto.charAt(i).toLowerCase();
 
         if (caracteres == 'a' || caracteres == 'e' || caracteres == 'i' || caracteres == 'o' || caracteres == 'u') {
             vocales+= caracteres;
